@@ -1,0 +1,10 @@
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\bin\Debug\ShaDeter.exe.config
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\bin\Debug\ShaDeter.exe
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\bin\Debug\ShaDeter.pdb
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\obj\Debug\ShaDeter.csprojAssemblyReference.cache
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\obj\Debug\ShaDeter.Form1.resources
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\obj\Debug\ShaDeter.Properties.Resources.resources
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\obj\Debug\ShaDeter.csproj.GenerateResource.cache
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\obj\Debug\ShaDeter.csproj.CoreCompileInputs.cache
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\obj\Debug\ShaDeter.exe
+D:\с++4\prokopenkov\Project 42(ShaDeter)\ShaDeter\obj\Debug\ShaDeter.pdb
