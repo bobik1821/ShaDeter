@@ -10,11 +10,25 @@ using System.Windows.Forms;
 
 namespace ShaDeter
 {
-    public partial class Form1 : Form
+    public struct CrNewDialogRes
     {
-        public Form1()
+        public int width;
+        public int heidth;
+        public bool ready;
+    }
+    public partial class F_MainForm : Form
+    {
+        F_Image imageField = null;
+        public static bool ImageFieldOpened = false;
+
+        public static IMageEditor imageEditor = new IMageEditor();
+        public static CrNewDialogRes diagRes = new CrNewDialogRes();
+
+        public F_MainForm()
         {
             InitializeComponent();
+            CreateField();
+
         }
 
         private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
@@ -26,5 +40,57 @@ namespace ShaDeter
         {
 
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void create_new_Click(object sender, EventArgs e)
+        {
+            F_CreateNewBitmap createNewBitmap = new F_CreateNewBitmap();
+            createNewBitmap.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public void CreateField()
+        {
+            imageField = new F_Image();
+            imageField.MdiParent = this;
+            imageField.Show();
+            ImageFieldOpened = true;
+        }
+
+        private void open_draw_window_Click(object sender, EventArgs e)
+        {
+            if(!ImageFieldOpened)
+            {
+                CreateField();
+            }
+        }
+
+        private void close_open_window_Click(object sender, EventArgs e)
+        {
+            if(ImageFieldOpened)
+            {
+                imageField.Close();
+                ImageFieldOpened = false;
+            }
+        }
     }
 }
+
